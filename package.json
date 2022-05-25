@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "app:ec-zlb-h5": "cd packages/ec/ec-zlb-h5 && pnpm dev"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
