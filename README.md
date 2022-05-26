@@ -6,3 +6,7 @@
 	pnpm app:xxx
 
 ### 注意事项：
+
+
+### 目录结构说明
+common -> 
