@@ -1,11 +1,16 @@
 {
   "name": "",
   "scripts": {
-    "app:ec-zlb-h5": "cd packages/ec/ec-zlb-h5 && pnpm dev",
+    "app:index": "cd packages/app && node index.js",
     "app:h5:dev": "pnpm run --filter @monorepo/ecZlbH5 dev",
     "lint": "pnpm run --filter=\"@monorepo/*\" lint"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   }
 }
